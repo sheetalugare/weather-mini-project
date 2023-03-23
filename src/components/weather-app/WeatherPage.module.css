@@ -1,0 +1,71 @@
+.weather-app-container {
+    width: 800px;
+    height: 850px;
+    margin: auto;
+    background-color:wheat;
+    border: 4px dashed #4D004d;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.weather-app-text {
+    font-family: serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.weather-details {
+    width: 90%;
+    min-height: 200px;
+    max-height: 250px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #e3eeff;
+}
+
+.temperature {
+    font-size: 78px;
+    font-weight: bold;
+}
+
+.weather-time {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.weather-place {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.weather-haze {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.grid-items {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px dashed #000;
+    justify-content: space-between
+}
+
+.grid-items-span-1 {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.grid-items-span-2 {
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.other-details {
+    width: 90% !important;
+    margin: auto;
+    /* display: flex;
+    align-items: flex-start !important; */
+}

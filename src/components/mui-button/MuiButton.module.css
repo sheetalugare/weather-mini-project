@@ -1,0 +1,15 @@
+.dark-filled {
+    border-radius: 18px !important;
+    font-size: 16px;
+    color: #000 !important;
+    width: 110px;
+    background-color: #4e69ff !important;
+}
+
+.dark-filled:hover {
+    border-radius: 18px !important;
+    padding: 10px;
+    width: 110px;
+    color: #000;
+    background-color: blue !important;
+}
